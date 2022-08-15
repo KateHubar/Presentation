@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>In 2001, 17 independent development management experts published the "Manifesto for Agile Software Development”. <br />
+					<a href="https://agilemanifesto.org/principles.html" target=_blank>Principles behind the Agile Manifesto.</a></section>
+				<section>Scrum</section>
+				<section> 
+					<ul>Sprint
+						<li>planning</li>
+						<li>daily-meeting (standup)</li>
+						<li>review</li>
+						<li>retrospective</li>
+					</ul>
+				</section>
+				<section> 
+					<ul>Roles
+						<li>product owner</li>
+						<li>scrum-master</li>
+						<li>development team</li>
+					</ul>
+				</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
